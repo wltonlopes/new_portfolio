@@ -1,20 +1,23 @@
 import React, { useState } from 'react';
+import AboutPage from '../components/AboutPage';
 
 export default function ContactMe() {
   const [ email, setEmail ] = useState('');
   return (
-    <div id="contato" className='Container_Page'>
-      <div className='Div_Proj'>
-        <section class="jumbotron text-center sec">
-          <div class="container page-container text-box">
-              <h1 id="contato" class="jumbotron-heading">Entre em contato comigo</h1>
-              <form action="https://formsubmit.co/weltonlopesmetal@gmail.com" method="POST">
+    <div id="contato" className='container-lg Container_Page'>
+      <div>
+        <section className="jumbotron text-center sec">
+          <div className="container page-container text-box">
+              <h1 id="contato" className="jumbotron-heading">Entre em contato comigo</h1>
+              <form action="https://formsubmit.co/weltonlopesmetal@gmail.com" method="POST" className='contato_block'>
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" required/>
+                <br/>
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome" required/>
+                <br/>
                 <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" rows="5" cols="30" id="mensagem" required ></textarea>
+                <textarea name="mensagem" rows="5" cols="20" id="mensagem" required ></textarea>
                 {/* <label>
                   <div>
                     Entre em contato comigo enviando um email:
@@ -30,6 +33,7 @@ export default function ContactMe() {
           </div>
         </section>
       </div>
+
     </div>
   )
 }

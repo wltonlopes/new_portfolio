@@ -4,7 +4,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 export default function NavBar() {
   return (
     <>
-      <Navbar bg="dark" expand="lg" fixed="top">
+      <Navbar bg="dark" expand="lg" className='container-fluid'>
         <Navbar.Brand href="#home">Welto Lopes</Navbar.Brand>
         <Nav.Link href="#projetos">Projetos</Nav.Link>
         <Nav.Link href="#sobremim">Sobre mim</Nav.Link>

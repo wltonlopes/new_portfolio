@@ -5,7 +5,7 @@ import InitPage from './pages/InitPage';
 import SkillsPage from './pages/SkillsPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactMe from './pages/ContactMe';
-import AboutPage from './pages/AboutPage';
+import AboutPage from './components/AboutPage';
 
 function App() {
   return (

@@ -5,7 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+Imagem de <a href="https://pixabay.com/pt/users/0fjd125gk87-51581/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=356024">0fjd125gk87</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=356024">Pixabay</a>
+Vídeo de <a href="https://pixabay.com/pt/users/motionstock-13298494/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=26798">motionstock</a> no <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=26798">Pixabay</a>
 ### `npm start`
 
 Runs the app in the development mode.\

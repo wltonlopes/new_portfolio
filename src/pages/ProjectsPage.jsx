@@ -1,8 +1,9 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
-import { Card } from "react-bootstrap";
+import { Card, CardGroup } from "react-bootstrap";
+import Carousel from 'react-bootstrap/Carousel';
 
 export default function ProjectsPage() {
+  
   const projects = [
     {
       name: "Welto Lopes",
@@ -19,30 +20,54 @@ export default function ProjectsPage() {
       link: "https://welto.com.br/",
       stack: "React, Bootstrap, NodeJS, Express, MongoDB, Mongoose, MongoDB Atlas, Heroku",
       github: ""
+    },
+    {
+      name: "Welto Lopes",
+      description: "Projeto de um site para a empresa Welto Lopes",
+      image: "https://i.imgur.com/XqQXQZb.png",
+      link: "https://welto.com.br/",
+      stack: "React, Bootstrap",
+      github: ""
     }
   ];
   
   return (
-    <div className="container-lg Container_Page">
+    <div id="projetos" className="container-lg Container_Page">
       <h1>Projetos</h1>
       <div className="Cards_Space">
-      <Row xs={1} md={2} className="g-4">
-        {projects.map(project => (
-          <Col>
-          <Card key={project.name}>
-            <Card.Img variant="top" src={project.image} />
+      <Carousel>
+        {projects.map( proj => (
+        <Carousel.Item interval={1000} key={proj.name}>
+          <img
+            className="d-block w-100"
+            src={proj.image}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>{proj.name}</h3>
+            <p>{proj.description}</p>
+          </Carousel.Caption>
+          <Card>
             <Card.Body>
-              <Card.Title>{project.name}</Card.Title>
-              <Card.Text>{project.description}</Card.Text>
+              <Card.Title>{proj.name}</Card.Title>
+              <Card.Text>
+                {proj.description}
+              </Card.Text>
+              <Card.Text>
+                {proj.stack}
+              </Card.Text>
+              <Card.Text>
+                {proj.github}
+              </Card.Text>
+              <Card.Text>
+                {proj.link}
+              </Card.Text>
             </Card.Body>
-            <Card.Footer>
-              <small className="text-muted">{project.stack}</small>
-              <small className="text-muted">Link github {project.github} </small>
-            </Card.Footer>
           </Card>
-          </Col>
+        </Carousel.Item>
         ))}
-      </Row>
+
+      </Carousel>
       </div>
     </div>
   );

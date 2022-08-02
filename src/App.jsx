@@ -1,23 +1,22 @@
-import './styles/App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './components/NavBar';
-import InitPage from './pages/InitPage';
-import SkillsPage from './pages/SkillsPage';
-import ProjectsPage from './pages/ProjectsPage';
-import ContactMe from './pages/ContactMe';
-import AboutPage from './components/AboutPage';
+import React from 'react';
+import NavBar from './components/NavBar'
+import Contatos from './pages/Contatos';
+import Projetos from './pages/Projetos';
+import Sobre from './pages/Sobre';
+import Stacks from './pages/Stacks';
+import './styles/App.sass'
 
 function App() {
+
   return (
     <div className="App">
       <NavBar/>
-      <InitPage/>
-      <SkillsPage/>
-      <ProjectsPage/>
-      <ContactMe/>
-      <AboutPage/>
+      <Sobre/>
+      <Stacks/>
+      <Projetos/>
+      <Contatos/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

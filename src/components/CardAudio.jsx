@@ -6,7 +6,7 @@ export default function CardAudio() {
     <div className='audio-card'>
       <audio  id="audio" preload="auto" controls autoplay muted loop>
         <source src="./src/assets/melodic-techno-03-extended-version-moogify-9867.mp3" type="audio/mp3" />
-        seu navegador não suporta HTML5
+        seu navegador não suporta HTML5!
       </audio>
     </div>
   )

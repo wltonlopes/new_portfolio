@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Components/CardAudio.sass'
+import '../styles/Components/CardAudio.css'
 
 export default function CardAudio() {
   return (

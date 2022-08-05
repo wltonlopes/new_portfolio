@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaReact, FaGit, FaHtml5, FaPython, FaCss3, FaDatabase, FaJsSquare } from "react-icons/fa";
-import '../styles/pages/Stacks.sass'
+import '../styles/pages/Stacks.css'
 
 
 export default function Stacks() {

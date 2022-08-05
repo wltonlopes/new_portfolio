@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { projects } from '../utils/data'
-import '../styles/pages/Projetos.sass'
+import '../styles/pages/Projetos.css'
 
 export default function Projetos() {
   let [ind, setind] = useState(0);

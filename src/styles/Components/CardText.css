@@ -1,0 +1,21 @@
+.suave-mudanca {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-text {
+  display: grid;
+  padding: 5rem;
+  background-color: #000;
+  opacity: 0.8;
+  grid: auto-flow/1fr 1fr;
+}/*# sourceMappingURL=CardText.css.map */

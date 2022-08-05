@@ -4,7 +4,7 @@ import Contatos from './pages/Contatos';
 import Projetos from './pages/Projetos';
 import Sobre from './pages/Sobre';
 import Stacks from './pages/Stacks';
-import './styles/App.sass'
+import './styles/App.css'
 
 function App() {
 

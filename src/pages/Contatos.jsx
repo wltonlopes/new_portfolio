@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/pages/Contatos.sass'
+import '../styles/pages/Contatos.css'
 
 export default function Contatos() {
   return (

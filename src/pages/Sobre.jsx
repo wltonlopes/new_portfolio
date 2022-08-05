@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/pages/Sobre.sass'
+import '../styles/pages/Sobre.css'
 import { FaLinkedin, FaGithub, FaWhatsapp, FaSpaceShuttle } from 'react-icons/fa'
 import CardAudio from '../components/CardAudio';
 

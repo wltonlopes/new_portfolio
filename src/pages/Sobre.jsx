@@ -1,5 +1,4 @@
 import React from 'react'
-import CardText from '../components/CardText'
 import '../styles/pages/Sobre.sass'
 import { FaLinkedin, FaGithub, FaWhatsapp, FaSpaceShuttle } from 'react-icons/fa'
 import CardAudio from '../components/CardAudio';
@@ -45,7 +44,6 @@ export default function Sobre() {
             src="https://avatars.githubusercontent.com/u/39802614?v=4"
             alt="Welto Lopes"  
           />
-          <CardText/>
         </div>
       </div>
     </div>

@@ -32,7 +32,7 @@ export default function Projetos() {
                 <img src={projects[ind].image} alt={projects[ind].name} />
               </a>
             </div>
-            <div>
+            <div className='projeto-text'>
               <p>{projects[ind].description}</p>
               <p>{projects[ind].stack}</p>
             </div>

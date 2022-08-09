@@ -8,13 +8,13 @@ export default function Stacks() {
   const [skills, setSkills] = useState('React');
 
   const skillsDescription = [
-    { name: 'React', description: 'React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.' },
-    { name: 'JavaScript', description: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-    { name: 'Git', description: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
-    { name: 'HTML5', description: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
-    { name: 'Python', description: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg' },
-    { name: 'CSS3', description: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg' },
-    { name: 'MySQL', description: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
+    { name: 'React', description: 'React é uma biblioteca JavaScript para construir interfaces de usuário. É mantido pelo Facebook e uma comunidade de desenvolvedores e empresas individuais.' },
+    { name: 'JavaScript', description: 'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. ' },
+    { name: 'Git', description: 'Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, salvando o histórico de edições de todos arquivos arquivo.' },
+    { name: 'HTML5', description: 'Html 5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML.' },
+    { name: 'Python', description: 'Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.' },
+    { name: 'CSS3', description: 'Cascading Style Sheets, pela qual se define estilos para um projeto web. Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página.' },
+    { name: 'MySQL', description: 'Bancos de dados relacionais.' },
   ]
 
   const iconsStacks = [
@@ -33,6 +33,8 @@ export default function Stacks() {
         <div id="stacks">
           <h1 >Minhas Skills</h1>
           <h3>Atualmente possuo/estou desenvolvendo habilidades nessas áreas: </h3>
+          <br/>
+          <br/>
           <div className="container-stacks">
             {
               iconsStacks.map(icon => (

@@ -22,15 +22,12 @@ export default function Projetos() {
 
   return (
     <div id="projetos" className="container">
-      <h1>Projetos</h1>
-      <div>
+      <div className='card-p'>
           {
           <div className='card-project'>
             <div>
               <h2>{projects[ind].name}</h2>
-              <a href={projects[ind].link} target="_blank">
                 <img src={projects[ind].image} alt={projects[ind].name} />
-              </a>
             </div>
             <div className='projeto-text'>
               <p>{projects[ind].description}</p>

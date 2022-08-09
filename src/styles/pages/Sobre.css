@@ -1,14 +1,50 @@
 .icone {
-  border: 1px solid #000;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .margin-icon {
-  margin-top: 5rem;
-  margin-bottom: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 0.2rem;
 }
 
 .img-sobre {
-  background-color: #000;
   opacity: 1;
-}/*# sourceMappingURL=Sobre.css.map */
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+  .icone {
+    border: 0.2px solid #000;
+    size: 4vh;
+    font-size: 1.2rem;
+  }
+
+  .margin-icon {
+    display: row;
+    margin-top: 3rem;
+    margin-bottom: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .icone {
+    border: 0.2px solid #000;
+    size: 13vh;
+    font-size: 3rem;
+  }
+
+  .margin-icon {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .margin-icon {
+    display: row;
+  }
+
+  .img-sobre {
+    height: 32vh;
+    width: auto;
+    align-items: center;
+  }
+}
+/*# sourceMappingURL=Sobre.css.map */

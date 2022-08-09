@@ -1,8 +1,8 @@
 import React from 'react'
 import '../styles/pages/Sobre.css'
-import { FaLinkedin, FaGithub, FaWhatsapp, FaSpaceShuttle } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa'
 import CardAudio from '../components/CardAudio';
-
+import Eu from '../assets/eu.jpeg'
 
 const icons = [
   { name: 'linkedin', link: 'https://www.linkedin.com/in/welton-santo-lopes/', icon: <FaLinkedin /> },
@@ -14,7 +14,7 @@ export default function Sobre() {
   return (
     <div className='container'>
       <CardAudio/>
-      <div id="home" className='container-text'>
+      <div id="sobre" className='container-text'>
         <div>
           <h1>
             Olá meu nome é Welton Lopes e eu sou um desenvolvedor Front End! Focado nas tecnologias React, JavaScript e NodeJS.
@@ -24,7 +24,7 @@ export default function Sobre() {
               {
                 icons.map(icon => (
                   <a
-                    className='icone'
+                    className='icone-sobre'
                     href={icon.link}
                     id={icon.name}
                     key={icon.name}
@@ -41,7 +41,7 @@ export default function Sobre() {
         <div>
           <img
             className='img-sobre'
-            src="https://avatars.githubusercontent.com/u/39802614?v=4"
+            src={Eu}
             alt="Welto Lopes"  
           />
         </div>

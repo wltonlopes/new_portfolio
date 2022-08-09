@@ -4,15 +4,43 @@
   color: white;
   align-items: center;
   align-content: center;
-  display: flexbox;
-  padding: 20vh;
+  justify-content: center;
+}
+
+.contatos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 10vh;
 }
 
 .contatos a {
   display: block;
+  font-size: 5rem;
   align-content: center;
   align-items: center;
   text-align: center;
-  padding: 5vh;
-  border: 5rem;
-}/*# sourceMappingURL=Contatos.css.map */
+  padding: 1vh;
+  border: 1rem;
+}
+
+.contatos a span {
+  font-size: 15px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px){
+  .contatos {
+    grid-template-columns: 1fr;
+  }
+
+  .contatos a span {
+    font-size: 13px;
+    text-align: justify;
+  }
+}
+
+/*# sourceMappingURL=Contatos.css.map */

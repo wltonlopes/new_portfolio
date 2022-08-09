@@ -7,7 +7,14 @@
 
 .icons-stacks {
   width: 33%;
-  font-size: 2vw;
+  font-size: 3vw;
   color: #fcfcfc;
   box-sizing: border-box;
-}/*# sourceMappingURL=Stacks.css.map */
+}
+
+.container-stacks a :hover {
+  color: #074e9a;
+  size: 110%;
+}
+
+/*# sourceMappingURL=Stacks.css.map */

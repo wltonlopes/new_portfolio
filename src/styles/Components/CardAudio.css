@@ -3,13 +3,15 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 20%;
-  height: 20%;
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
   position: relative;
   top: 5vh;
-  left: 60vw;
+  right: 1%;
   z-index: 9;
-}/*# sourceMappingURL=CardAudio.css.map */
+}
+audio {
+  max-width: 40vw;
+}
+/*# sourceMappingURL=CardAudio.css.map */
